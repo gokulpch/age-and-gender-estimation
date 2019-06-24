@@ -129,8 +129,8 @@ def main():
                                         "M" if predicted_genders[i][0] < 0.5 else "F")
                 print (label, file=open("results.txt", "a"))
                 draw_label(img, (d.left(), d.top()), label)
-
-        cv2.imshow("result", img)
+        ## Only Enable if Xauth and Python GUI Works on Host ##
+        #cv2.imshow("result", img)
         key = cv2.waitKey(-1) if image_dir else cv2.waitKey(30)
 
         if key == 27:  # ESC

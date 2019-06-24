@@ -2,9 +2,11 @@ opencv-python
 dlib
 imutils
 tensorflow
+matplotlib
 Keras
 scipy
 numpy
+cmake
 Pandas
 tqdm
 h5py
